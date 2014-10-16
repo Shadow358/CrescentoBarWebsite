@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Επικοινωνια</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42498883-1', 'crescentobar.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+	<div class="header">
+		<div>
+			<ul>
+				<li>
+					<a href="index.html">Αρχη</a>
+				</li>
+				<li>
+					<a href="events.html">Προγραμμα</a>
+				</li>
+				<li>
+					<a href="games.html">Γκαλερι</a>
+				</li>
+				<li>
+					<a href="menu.html">Μενου</a>
+				</li>
+				<li>
+					<a href="about.html">Πληροφοριες</a>
+				</li>
+				<li class="selected">
+					<a href="blog.html">Τοποθεσια</a>
+				</li>
+				<li>
+					<a href="Contact.html">Επικοινωνια</a>
+				</li>
+			</ul>
+			<a style="padding-left: 100px;"  href="index.html" id="logo"><img src="images/logo.png" alt="logo"></a>
+		</div>
+	</div>
+	<div class="body">
+		<div id="page-wrap">
+          <div align="middle">
+          	<div id="contact-area">
+		<form method="post" action="contactengine.php">
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" />
+				
+				<label for="City">City:</label>
+				<input type="text" name="City" id="City" />
+	
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+				
+				<label for="Message">Message:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+				<input type="submit" name="submit" value="Submit" class="submit-button" />
+			</form>
+			</div>
+			</div>
+		</div>
+	
+	</div>
+	</div>
+</body>
+</html>
